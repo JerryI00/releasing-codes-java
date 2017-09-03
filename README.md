@@ -12,7 +12,9 @@ This repository contains the Java source codes of some of Dr. Ke Li's publicatio
 - [MOEAD_IR.java](https://github.com/JerryI00/releasing-codes-java/blob/master/src/jmetal/metaheuristics/moead/MOEAD_IR.java)
 > K. Li, S. Kwong, Q. Zhang, K. Deb, “Interrelationship-based Selection for Decomposition Multiobjective Optimization”, IEEE Trans. on Cybernetics. 45(10): 2076–2088, 2015.
 - [DPP_Epsilon.java](https://github.com/JerryI00/releasing-codes-java/blob/master/src/jmetal/metaheuristics/moead/DPP_Epsilon.java), [DPP_Pareto.java](https://github.com/JerryI00/releasing-codes-java/blob/master/src/jmetal/metaheuristics/moead/DPP_Pareto.java), [DPPDRA_Epsilon.java](https://github.com/JerryI00/releasing-codes-java/blob/master/src/jmetal/metaheuristics/moead/DPPDRA_Epsilon.java) and [DPPDRA_Pareto.java](https://github.com/JerryI00/releasing-codes-java/blob/master/src/jmetal/metaheuristics/moead/DPPDRA_Pareto.java)
-> K. Li, S. Kwong, K. Deb, “A Dual Population Paradigm for Evolutionary Multiobjective Optimization”, Information Sciences (INS). 309: 50–72, 2015.
+> K. Li, S. Kwong, K. Deb, “A Dual Population Paradigm for Evolutionary Multiobjective Optimization”, Information Sciences. 309: 50–72, 2015.
+- [DPP_Grid.java](https://github.com/JerryI00/releasing-codes-java/blob/master/src/jmetal/metaheuristics/moead/DPP_Grid.java)
+> K. Li, K. Deb, Q. Zhang, “Evolutionary Multiobjective Optimization With Hybrid Selection Principles”, Proc. of 2015 IEEE Congress on Evolutionary Computation (CEC’15), IEEE Press: p. 900–907, May 2015.
 - [MOEADD.java](https://github.com/JerryI00/releasing-codes-java/blob/master/src/jmetal/metaheuristics/moead/MOEADD.java) and [CMOEADD.java](https://github.com/JerryI00/releasing-codes-java/blob/master/src/jmetal/metaheuristics/moead/CMOEADD.java)
 > K. Li, K. Deb, Q. Zhang, S. Kwong, “An Evolutionary Many-Objective Optimization Algorithm Based on Dominance and Decomposition”, IEEE Trans. on Evolutionary Computation. 19(5): 694–716, 2015.
 - [MOEAD_DRA_ASTM.java](https://github.com/JerryI00/releasing-codes-java/blob/master/src/jmetal/metaheuristics/moead/MOEAD_DRA_ASTM.java)
