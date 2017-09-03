@@ -1,7 +1,7 @@
 /**
- * DPP_Epsilon.java
+ * DPP_Grid.java
  * 
- * This is the main implementation of ED/DPP-DRA.
+ * This is the main implementation of HEMOA/GD.
  * 
  * Author:
  * 		Ke Li <k.li@exeter.ac.uk>
