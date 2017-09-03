@@ -1,25 +1,34 @@
 /**
  * MOEAD_main.java
- * 
- * @author Ke Li <keli.genius@gmail.com>
- * 
- * Copyright (c) 2014 Ke Li
- * 
- * Note: This is a free software developed based on the open source project 
- * jMetal<http://jmetal.sourceforge.net>. The copy right of jMetal belongs to 
- * its original authors, Antonio J. Nebro and Juan J. Durillo. Nevertheless, 
- * this current version can be redistributed and/or modified under the terms of 
- * the GNU Lesser General Public License as published by the Free Software 
+ *
+ * This is the main function used to call the other specific algorithms.
+ *
+ * Author:
+ * 		Ke Li <k.li@exeter.ac.uk>
+ *
+ * Affliation:
+ * 		Department of Computer Science, University of Exeter
+ *
+ * Homepage:
+ * 		https://coda-group.github.io/
+ *
+ * Copyright (c) 2017 Ke Li
+ *
+ * Note: This is a free software developed based on the open source project
+ * jMetal<http://jmetal.sourceforge.net>. The copy right of jMetal belongs to
+ * its original authors, Antonio J. Nebro and Juan J. Durillo. Nevertheless,
+ * this current version can be redistributed and/or modified under the terms of
+ * the GNU Lesser General Public License as published by the Free Software
  * Foundation, either version 3 of the License, or (at your option) any later version.
- * 
- * This program is distributed in the hope that it will be useful, 
+ *
+ * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Lesser General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU Lesser General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *  
+ *
  */
 
 package jmetal.metaheuristics.moead;
@@ -72,7 +81,7 @@ public class MOEAD_main {
 		// The directory is now empty so delete it
 		return dir.delete();
 	}
-	
+
 	/**
 	 * @param args
 	 *            Command line arguments. The first (optional) argument
@@ -94,14 +103,14 @@ public class MOEAD_main {
 		Operator mutation; 		// Mutation operator
 
 		HashMap parameters; // Operator parameters
-		
+
 		QualityIndicator indicators; // Object to get quality indicators
 
 		// Logger object and file to store log messages
 		logger_ = Configuration.logger_;
 		fileHandler_ = new FileHandler("MOEAD.log");
 		logger_.addHandler(fileHandler_);
-		
+
 		indicators = null;
 		if (args.length == 1) {
 			Object[] params = { "Real" };
@@ -138,7 +147,7 @@ public class MOEAD_main {
 
 		algorithm.setInputParameter("dataDirectory", "weight/");
 //		algorithm.setInputParameter("dataDirectory", "weight/preference");
-		
+
 		// Crossover operator
 		int crossover_id = 2;
 		if (crossover_id == 1) {
