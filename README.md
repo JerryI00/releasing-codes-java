@@ -3,7 +3,7 @@ Java Source Codes of Dr. Ke Li's Publications
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-This repository contains the Java source codes of some of Dr. Ke Li's publications. All these java codes are developed based on the open source package [jMetal (version 4.5)](http://jmetal.sourceforge.net/). The main sources code and their corresponding publications are listed as followings:
+This repository contains the Java source codes of some of Dr. Ke Li's publications. All these java codes are developed based on the open source package [jMetal (version 4.5)](http://jmetal.sourceforge.net/). The main sources code and their corresponding publications are listed as followings. More information can be found from [here](https://coda-group.github.io/).
 
 - [MOEADDRA_MAB.java](https://github.com/JerryI00/releasing-codes-java/blob/master/src/jmetal/metaheuristics/moead/MOEADDRA_MAB.java)
 > K. Li, Á. Fialho, S. Kwong, Q. Zhang, “Adaptive Operator Selection with Bandits for Multiobjective Evolutionary Algorithm Based on Decomposition”, IEEE Trans. on Evolutionary Computation. 18(1): 114–130, 2014.
