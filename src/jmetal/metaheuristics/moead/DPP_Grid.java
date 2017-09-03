@@ -7,9 +7,9 @@
  * 		Ke Li <k.li@exeter.ac.uk>
  * 
  * Reference:
- *		K. Li, S. Kwong, K. Deb,
- *		“A Dual Population Paradigm for Evolutionary Multiobjective Optimization”, 
- *		Information Sciences (INS). 309: 50–72, 2015. 
+ *		K. Li, K. Deb, Q. Zhang,
+ *		“Evolutionary Multiobjective Optimization With Hybrid Selection Principles”,
+ *		Proc. of 2015 IEEE Congress on Evolutionary Computation (CEC’15), IEEE Press: p. 900–907, May 2015. 
  * 
  * Homepage:
  * 		https://coda-group.github.io/
