@@ -1,1 +1,1 @@
-# releasing-codes-java
+# publication-codes
