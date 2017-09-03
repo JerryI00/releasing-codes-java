@@ -1,4 +1,7 @@
 # Java Source Codes of Dr. Ke Li's Publications
+===
+
+[![GitHub license](http://dmlc.github.io/img/apache2.svg)](./LICENSE)
 
 This repository contains the Java source codes of some of Dr. Ke Li's publications. All these java codes are developed based on the open source package [jMetal (version 4.5)](http://jmetal.sourceforge.net/). The main sources code and their corresponding publications are listed as followings:
 
