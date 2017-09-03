@@ -120,18 +120,17 @@ public class MOEAD_main {
 //			problem = new ZDT1("Real");
 		} // else
 
-//		algorithm = new MOEAD_test(problem);
-//		algorithm = new MOEADD(problem);
 //		algorithm = new MOEAD(problem);
 //		algorithm = new MOEAD_DRA(problem);
 //		algorithm = new MOEADDRA_MAB(problem);
-//		algorithm = new MOEAD_STM(problem);
-		algorithm = new MOEAD_STM_SBX(problem);
+		algorithm = new MOEAD_STM(problem);
 //		algorithm = new MOEAD_IR(problem);
+//		algorithm = new MOEADD(problem);
 //		algorithm = new DPP_Pareto(problem);
 //		algorithm = new DPPDRA_Pareto(problem);
 //		algorithm = new DPPDRA_Epsilon(problem);
 //		algorithm = new DPP_Grid(problem);
+//		algorithm = new MOEAD_DRA_ASTM(problem);
 
 		// Algorithm parameters
 		algorithm.setInputParameter("populationSize", 91);
