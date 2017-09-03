@@ -1,7 +1,7 @@
-# Java Source Codes of Dr. Ke Li's Publications
+Java Source Codes of Dr. Ke Li's Publications
 =====
 
-[![GitHub license](http://dmlc.github.io/img/apache2.svg)](./LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 This repository contains the Java source codes of some of Dr. Ke Li's publications. All these java codes are developed based on the open source package [jMetal (version 4.5)](http://jmetal.sourceforge.net/). The main sources code and their corresponding publications are listed as followings:
 
